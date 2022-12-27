@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+/*
+-------------------------------------------------
+-------------------------------------------------
+Response Style Sheet
+Version : 1.0
+Author : CME
+First update : 2022. 11. 05.
+Last update : 2022. 00. 00.
+-------------------------------------------------
+-------------------------------------------------
+*/
+
+
+@media (max-width: 1401px) {
+
+.inner{width:100%; padding:0 4%; box-sizing:border-box;}
+
+/* footer */
+.footer_wrapper > .inner{padding:20px 4%;}
+.footer_wrapper .contact_list{right:4%;}
+
+/* main */
+.visual_wrapper .introduce_dec{right:auto; left:50%; transform:translate(-50%, -50%);}
+
+}
+
+@media (max-width: 1200px) {
+
+/* layout */
+.float_wrap{}
+.float_wrap .lft_sec{float:none; width:100%;}
+.float_wrap .rit_sec{float:none; width:100%; text-align:center;}
+
+/* introduce */
+.introduce_dec{width:200px; padding:100px 100px 200px;}
+.introduce_dec:before{height:50%; transform:translate(-50%, -70%);}
+
+.introduce_list{margin-top:40px;}
+.introduce_list .introduce_txt{word-break:keep-all;}
+
+}
+
+@media (max-width: 960px) {
+
+html, body{font-size:14px;}
+
+/* header */
+.header_wrapper{padding:10px 0; background:#fff !important;}
+.logo{height:50px;}
+.logo a{height:100%;}
+.logo a img{height:100%;}
+.logo_txt{display:none;}
+
+/* gnb */
+.m_gnb{display:block; position:absolute; top:50%; right:4%; transform:translateY(-50%); width:30px; height:30px;}
+.m_gnb i{display:inline-block; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:100%; height:2px; background:#000;}
+.m_gnb i:before{display:inline-block; position:absolute; top:-10px; left:0; width:100%; height:2px; content:""; background:#000;}
+.m_gnb i:after{display:inline-block; position:absolute; bottom:-10px; left:0; width:100%; height:2px; content:""; background:#000;}
+
+.m_gnb_close{display:block; position:absolute; top:20px; right:20px; width:30px; height:30px;}
+.m_gnb_close i{display:block; position:relative; width:100%; height:100%;}
+.m_gnb_close i:before{display:block; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%) rotate(45deg); width:100%; height:2px; content:""; background:#000;}
+.m_gnb_close i:after{display:block; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%) rotate(-45deg); width:100%; height:2px; content:""; background:#000;}
+
+.gnb_wrap{display:block; position:fixed; z-index:2; top:0; right:-100%; width:60%; height:100%; background:rgba(0, 0, 0, 0.6); transition:all .5s;}
+.gnb_wrap.on{right:0;}
+.gnb_wrap.on:before{display:block; position:fixed; z-index:-1; top:0; left:0; width:100%; height:100%; content:""; background:rgba(0, 0, 0, 0.6); transition:all .5s;}
+.gnb_wrap:after{display:block; position:absolute; z-index:-1; top:0; right:0; width:100%; height:100%; content:""; background:#fff; transition:all .5s;}
+.gnb_wrap > .gnb_list{display:block; position:absolute; top:0; right:0; width:100%; padding:100px 20px 20px; box-sizing:border-box;}
+.gnb_wrap > .gnb_list:before{display:block; position:absolute; top:70px; left:50%; transform:translateX(-50%); width:85%; height:0; border-top:1px dashed #777; content:"";}
+.gnb_wrap > .gnb_list > li{margin:0;}
+.gnb_wrap > .gnb_list > li + li{margin-top:10px;}
+.gnb_wrap > .gnb_list > li > a{text-align:left;}
+
+/* layout */
+.sub_contents_wrapper{padding-top:70px;}
+.contents_wrapper{padding:50px 0;}
+.location_wrapper{padding-top:70px;}
+
+/* main */
+.visual_wrapper .introduce_dec{width:90%; height:400px; padding:100px 0 0; box-sizing:border-box;}
+.main_swiper{padding:50px 4% !important;}
+
+/* location */
+.location_wrapper .location{padding:20px 0;}
+.location_wrapper .location > li + li{margin-left:50px;}
+.location_wrapper .location > li + li:before{left:-25px;}
+
+/* introduce */
+.introduce_list li + li{margin-top:10px;}
+
+/* footer */
+.footer_wrapper .flex_wrap{display:block;}
+.footer_wrapper .footer_con{padding-left:0; padding-top:20px;}
+
+}
+
+@media (max-width: 500px) {
+
+/* introduce */
+.introduce_dec{width:90%; height:400px; padding:100px 0 0; box-sizing:border-box;}
+
+}

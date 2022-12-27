@@ -34,24 +34,25 @@ body{background:#f7f7f7;}
 
 
 /********** gnb **********/
-.gnb_wrap{display:flex; flex-wrap:nowrap; position:relative; justify-content:right; padding:15px 0; box-sizing:border-box;}
-.gnb_wrap > li{display:block; position:relative;}
-.gnb_wrap > li > a{display:block; position:relative; margin:0 10px; padding:0 10px; box-sizing:border-box; text-align:center; color:#222; font-size:1rem; font-weight:500; letter-spacing:-0.25px; line-height:30px;}
-.header_wrapper.main .gnb_wrap > li > a{color:#fff;}
-.header_wrapper.main.on .gnb_wrap > li > a{color:#333;}
-.gnb_wrap > li > a:hover{color:#3a92d5;}
-.header_wrapper.main .gnb_wrap > li > a:hover{color:#203a72;}
-.header_wrapper.main.on .gnb_wrap > li > a:hover{color:#3a92d5;}
+.gnb_wrap{display:block; position:relative;}
+.gnb_wrap > .gnb_list{display:flex; flex-wrap:nowrap; position:relative; justify-content:right; padding:15px 0; box-sizing:border-box;}
+.gnb_wrap > .gnb_list > li{display:block; position:relative;}
+.gnb_wrap > .gnb_list > li > a{display:block; position:relative; margin:0 10px; padding:0 10px; box-sizing:border-box; text-align:center; color:#222; font-size:1rem; font-weight:500; letter-spacing:-0.25px; line-height:30px;}
+.header_wrapper.main .gnb_wrap > .gnb_list > li > a{color:#fff;}
+.header_wrapper.main.on .gnb_wrap > .gnb_list > li > a{color:#333;}
+.gnb_wrap > .gnb_list > li > a:hover{color:#3a92d5;}
+.header_wrapper.main .gnb_wrap > .gnb_list > li > a:hover{color:#203a72;}
+.header_wrapper.main.on .gnb_wrap > .gnb_list > li > a:hover{color:#3a92d5;}
 
-.gnb_wrap > li:nth-of-type(1) > a{padding-left:40px; background:url(../images/icon/ico_profile.png)no-repeat left center;}
-.gnb_wrap > li:nth-of-type(2) > a{padding-left:40px; background:url(../images/icon/ico_portfolio.png)no-repeat left center;}
-.gnb_wrap > li:nth-of-type(3) > a{padding-left:40px; background:url(../images/icon/ico_contact.png)no-repeat left center;}
-.header_wrapper.main .gnb_wrap > li:nth-of-type(1) > a{padding-left:40px; background:url(../images/icon/ico_profile_w.png)no-repeat left center;}
-.header_wrapper.main .gnb_wrap > li:nth-of-type(2) > a{padding-left:40px; background:url(../images/icon/ico_portfolio_w.png)no-repeat left center;}
-.header_wrapper.main .gnb_wrap > li:nth-of-type(3) > a{padding-left:40px; background:url(../images/icon/ico_contact_w.png)no-repeat left center;}
-.header_wrapper.main.on .gnb_wrap > li:nth-of-type(1) > a{padding-left:40px; background:url(../images/icon/ico_profile.png)no-repeat left center;}
-.header_wrapper.main.on .gnb_wrap > li:nth-of-type(2) > a{padding-left:40px; background:url(../images/icon/ico_portfolio.png)no-repeat left center;}
-.header_wrapper.main.on .gnb_wrap > li:nth-of-type(3) > a{padding-left:40px; background:url(../images/icon/ico_contact.png)no-repeat left center;}
+.gnb_wrap > .gnb_list > li:nth-of-type(1) > a{padding-left:40px; background:url(../images/icon/ico_profile.png)no-repeat left center;}
+.gnb_wrap > .gnb_list > li:nth-of-type(2) > a{padding-left:40px; background:url(../images/icon/ico_portfolio.png)no-repeat left center;}
+.gnb_wrap > .gnb_list > li:nth-of-type(3) > a{padding-left:40px; background:url(../images/icon/ico_contact.png)no-repeat left center;}
+.header_wrapper.main .gnb_wrap > .gnb_list > li:nth-of-type(1) > a{padding-left:40px; background:url(../images/icon/ico_profile_w.png)no-repeat left center;}
+.header_wrapper.main .gnb_wrap > .gnb_list > li:nth-of-type(2) > a{padding-left:40px; background:url(../images/icon/ico_portfolio_w.png)no-repeat left center;}
+.header_wrapper.main .gnb_wrap > .gnb_list > li:nth-of-type(3) > a{padding-left:40px; background:url(../images/icon/ico_contact_w.png)no-repeat left center;}
+.header_wrapper.main.on .gnb_wrap > .gnb_list > li:nth-of-type(1) > a{padding-left:40px; background:url(../images/icon/ico_profile.png)no-repeat left center;}
+.header_wrapper.main.on .gnb_wrap > .gnb_list > li:nth-of-type(2) > a{padding-left:40px; background:url(../images/icon/ico_portfolio.png)no-repeat left center;}
+.header_wrapper.main.on .gnb_wrap > .gnb_list > li:nth-of-type(3) > a{padding-left:40px; background:url(../images/icon/ico_contact.png)no-repeat left center;}
 
 .m_gnb{display:none;}
 /********** //gnb **********/
