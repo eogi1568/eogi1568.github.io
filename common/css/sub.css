@@ -92,6 +92,20 @@ Last update : 2022. 00. 00.
 /********** //bullet **********/
 
 
+/********** button **********/
+/* btn_box */
+.btn_area{display:block; position:relative; text-align:center;}
+.btn_area.lft{text-align:left;}
+.btn_area.rit{text-align:right;}
+
+/* btn */
+.btn_ty01_sty01{display:inline-block; position:relative; z-index:2; vertical-align:middle; position:relative; padding:10px 25px; box-sizing:border-box; background:#203a72; border:1px solid #203a72; border-radius:10px; text-align:center; color:#fff; font-size:1rem; font-weight:500; letter-spacing:-0.5px; line-height:1.5; transition:all .5s; overflow:hidden;}
+.btn_ty01_sty01:before{display:block; position:absolute; z-index:-1; top:0; left:0; width:100%; height:100%; content:""; transform:scaleX(0); transform-origin:left center; background:#fff; transition:all .5s;}
+.btn_ty01_sty01:hover{color:#203a72;}
+.btn_ty01_sty01:hover:before{transform:scaleX(1);}
+/********** //button **********/
+
+
 /********** portfolio **********/
 .portfolio_wrapper{display:block; position:relative;}
 .portfolio_wrapper .portfolio{display:block; position:relative; padding:30px; box-sizing:border-box; border:1px solid #ccc;}
@@ -137,5 +151,7 @@ Last update : 2022. 00. 00.
 /********** //introduce **********/
 
 
-/**********  **********/
-/**********  **********/
+/********** not **********/
+.not_found{display:block; position:relative; text-align:center;}
+.not_found span{display:inline-block; padding:40px 0 40px 60px; box-sizing:border-box; background:url(../images/common/logo_cme.png)no-repeat left center / 50px auto; font-family:"Gmarket", sans-serif; font-size:1.5rem; font-weight:500; letter-spacing:-0.5px; line-height:2;}
+/********** //not **********/
