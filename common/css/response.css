@@ -38,7 +38,6 @@ Last update : 2022. 00. 00.
 .introduce_dec:before{height:50%; transform:translate(-50%, -70%);}
 
 .introduce_list{margin-top:40px;}
-.introduce_list .introduce_txt{word-break:keep-all;}
 
 }
 
@@ -66,7 +65,7 @@ html, body{font-size:14px;}
 
 .gnb_wrap{display:block; position:fixed; z-index:2; top:0; right:-100%; width:60%; height:100%; background:rgba(0, 0, 0, 0.6); transition:all .5s;}
 .gnb_wrap.on{right:0;}
-.gnb_wrap.on:before{display:block; position:fixed; z-index:-1; top:0; left:0; width:100%; height:100%; content:""; background:rgba(0, 0, 0, 0.6); transition:all .5s;}
+.gnb_wrap.on .gnb_background{display:block; position:fixed; z-index:-1; top:0; left:0; width:100%; height:100%; content:""; background:rgba(0, 0, 0, 0.6); transition:all .5s;}
 .gnb_wrap:after{display:block; position:absolute; z-index:-1; top:0; right:0; width:100%; height:100%; content:""; background:#fff; transition:all .5s;}
 .gnb_wrap > .gnb_list{display:block; position:absolute; top:0; right:0; width:100%; padding:100px 20px 20px; box-sizing:border-box;}
 .gnb_wrap > .gnb_list:before{display:block; position:absolute; top:70px; left:50%; transform:translateX(-50%); width:85%; height:0; border-top:1px dashed #777; content:"";}
@@ -101,5 +100,16 @@ html, body{font-size:14px;}
 
 /* introduce */
 .introduce_dec{width:90%; height:400px; padding:100px 0 0; box-sizing:border-box;}
+.introduce_list > li{display:block;}
+.introduce_list > li + li{margin-top:20px;}
+.introduce_list .introduce_tit{width:100%;}
+.introduce_list .introduce_txt{width:100%;}
+.introduce_list .introduce_txt:before{display:none; content:none;}
+
+/* 여백 */
+.white_space_s1{height:70px;}
+.white_space_s2{height:50px;}
+.white_space_s3{height:30px;}
+.white_space_s4{height:15px;}
 
 }
