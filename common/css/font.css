@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/*
+-------------------------------------------------
+-------------------------------------------------
+Font Import Sheet
+Version : 1.0
+Author : CME
+First update : 2022. 11. 05.
+Last update : 2022. 00. 00.
+-------------------------------------------------
+-------------------------------------------------
+*/
+
+/* 본고딕 */
+@font-face {
+    font-family: 'NotoSansKR';
+    font-style: normal;
+    font-weight: 100;
+    src: local('NotoSansKR Thin'), local('NotoSansKR Thin'), local('NotoSansKR Thin');
+    src: url(../fonts/NotoSansKR-Thin.eot);
+    src: url(../fonts/NotoSansKR-Thin.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/NotoSansKR-Thin.woff2) format('woff2'),
+    url(../fonts/NotoSansKR-Thin.woff) format('woff'),
+    url(../fonts/NotoSansKR-Thin.otf) format('opentype');
+}
+
+
+@font-face {
+    font-family: 'NotoSansKR';
+    font-style: normal;
+    font-weight: 300;
+    src: local('NotoSansKR Light'), local('NotoSansKR Light'), local('NotoSansKR Light');
+    src: url(../fonts/NotoSansKR-Light.eot);
+    src: url(../fonts/NotoSansKR-Light.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/NotoSansKR-Light.woff2) format('woff2'),
+    url(../fonts/NotoSansKR-Light.woff) format('woff'),
+    url(../fonts/NotoSansKR-Light.otf) format('opentype');
+
+}
+
+@font-face {
+    font-family: 'NotoSansKR';
+    font-style: normal;
+    font-weight: 400;
+    src: local('NotoSansKR Regular'), local('NotoSansKR Regular'), local('NotoSansKR Regular');
+    src: url(../fonts/NotoSansKR-Regular.eot);
+    src: url(../fonts/NotoSansKR-Regular.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/NotoSansKR-Regular.woff2) format('woff2'),
+    url(../fonts/NotoSansKR-Regular.woff) format('woff'),
+    url(../fonts/NotoSansKR-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'NotoSansKR';
+    font-style: normal;
+    font-weight: 500;
+    src: local('NotoSansKR Medium'), local('NotoSansKR Medium'), local('NotoSansKR Medium');
+    src: url(../fonts/NotoSansKR-Medium.eot);
+    src: url(../fonts/NotoSansKR-Medium.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/NotoSansKR-Medium.woff2) format('woff2'),
+    url(../fonts/NotoSansKR-Medium.woff) format('woff'),
+    url(../fonts/NotoSansKR-Medium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'NotoSansKR';
+    font-style: normal;
+    font-weight: 700;
+    src: local('NotoSansKR Bold'), local('NotoSansKR Bold'), local('NotoSansKR Bold');
+    src: url(../fonts/NotoSansKR-Bold.eot);
+    src: url(../fonts/NotoSansKR-Bold.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/NotoSansKR-Bold.woff2) format('woff2'),
+    url(../fonts/NotoSansKR-Bold.woff) format('woff'),
+    url(../fonts/NotoSansKR-Bold.otf) format('opentype');
+}
+
+
+@font-face {
+    font-family: 'NotoSansKR';
+    font-style: normal;
+    font-weight: 900;
+    src: local('NotoSansKR Black'), local('NotoSansKR Black'), local('NotoSansKR Black');
+    src: url(../fonts/NotoSansKR-Black.eot);
+    src: url(../fonts/NotoSansKR-Black.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/NotoSansKR-Black.woff2) format('woff2'),
+    url(../fonts/NotoSansKR-Black.woff) format('woff'),
+    url(../fonts/NotoSansKR-Black.otf) format('opentype');
+}
+
+/* G마켓 */
+@font-face {
+    font-family: 'Gmarket';
+    font-style: normal;
+    font-weight: 300;
+    src: local('GmarketSansTTFLight');
+    src: url(../fonts/GmarketSansTTFLight.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Gmarket';
+    font-style: normal;
+    font-weight: 500;
+    src: local('GmarketSansTTFMedium');
+    src: url(../fonts/GmarketSansTTFMedium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Gmarket';
+    font-style: normal;
+    font-weight: 700;
+    src: local('GmarketSansTTFBold');
+    src: url(../fonts/GmarketSansTTFBold.ttf) format('truetype');
+}

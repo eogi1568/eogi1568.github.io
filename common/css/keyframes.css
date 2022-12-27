@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*
+-------------------------------------------------
+-------------------------------------------------
+Keyframes Style Sheet
+Version : 1.0
+Author : CME
+First update : 2022. 11. 05.
+Last update : 2022. 00. 00.
+-------------------------------------------------
+-------------------------------------------------
+*/
+
+
+@keyframes scrollMove {
+    0% {
+        background-position:center 6px;
+    }
+    100% {
+        background-position:center 0;
+    }
+}
