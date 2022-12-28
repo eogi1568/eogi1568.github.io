@@ -51,6 +51,7 @@ html, body{font-size:14px;}
 .logo a{height:100%;}
 .logo a img{height:100%;}
 .logo_txt{display:none;}
+.footer_wrapper .logo_txt{display:inline-block;}
 
 /* gnb */
 .m_gnb{display:block; position:absolute; top:50%; right:4%; transform:translateY(-50%); width:30px; height:30px;}
@@ -106,6 +107,11 @@ html, body{font-size:14px;}
 .introduce_list .introduce_txt{width:100%;}
 .introduce_list .introduce_txt:before{display:none; content:none;}
 
+/* text */
+.icon_pc{padding-left:60px;}
+.icon_mobile{padding-left:44px;}
+.icon_responsive{padding-left:60px;}
+
 /* 여백 */
 .white_space_s1{height:70px;}
 .white_space_s2{height:50px;}
@@ -116,5 +122,24 @@ html, body{font-size:14px;}
 .greetings_dec dt{word-break:keep-all;}
 .greetings_dec dt span{padding-left:0; padding-top:65px;}
 .greetings_dec dt span:before{top:0; left:50%; transform:translateX(-50%) rotate3d(0, 0, 0, 0deg); animation:moveLogo2 2s ease-in-out alternate infinite;}
+
+/* pf_list_components */
+.pf_list .pf_item{box-shadow:0 5px 15px rgba(0, 0, 0, 0.3) !important;}
+.pf_list .pf_item .pf_dec{border-top:1px solid #ccc !important; color:#666 !important;}
+
+/* footer */
+.footer_wrapper .contact_list{gap:5px;}
+.footer_wrapper .contact_list > li > a{display:block; width:35px; height:35px;}
+.footer_wrapper .contact_list > li > a > img{width:100%; image-rendering:-webkit-optimize-contrast;}
+
+}
+
+@media (max-width: 300px) {
+    
+/* text */
+.sub_tit_h3{font-size:1.8rem;}
+
+/* introduce */
+.introduce_dec{height:300px; padding:70px 0 0;}
 
 }
