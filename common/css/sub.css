@@ -151,6 +151,15 @@ Last update : 2022. 00. 00.
 /********** //introduce **********/
 
 
+/********** greetings **********/
+.greetings_dec{display:block; position:relative;}
+.greetings_dec dt{display:block; position:relative; text-align:center; color:#203a72; font-family:"Gmarket", sans-serif; font-size:1.5rem; font-weight:500; letter-spacing:-0.5px; line-height:2;}
+.greetings_dec dt span{display:inline-block; position:relative; padding-left:60px;}
+.greetings_dec dt span:before{display:block; position:absolute; top:50%; left:0; transform:translateY(-50%) rotate3d(0, 0, 0, 0deg); width:60px; height:60px; content:""; background:url(../images/common/logo_cme.png)no-repeat center center; transform-origin:center center; animation:moveLogo 2s ease-in-out alternate infinite;}
+.greetings_dec dd{display:block; position:relative; margin-top:30px; text-align:center; color:#666; font-size:1rem; font-weight:400; letter-spacing:-0.5px; line-height:1.5;}
+/********** //greetings **********/
+
+
 /********** not **********/
 .not_found{display:block; position:relative; text-align:center;}
 .not_found span{display:inline-block; padding:40px 0 40px 60px; box-sizing:border-box; background:url(../images/common/logo_cme.png)no-repeat left center / 50px auto; font-family:"Gmarket", sans-serif; font-size:1.5rem; font-weight:500; letter-spacing:-0.5px; line-height:2;}

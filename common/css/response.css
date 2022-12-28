@@ -112,4 +112,9 @@ html, body{font-size:14px;}
 .white_space_s3{height:30px;}
 .white_space_s4{height:15px;}
 
+/* greetings */
+.greetings_dec dt{word-break:keep-all;}
+.greetings_dec dt span{padding-left:0; padding-top:65px;}
+.greetings_dec dt span:before{top:0; left:50%; transform:translateX(-50%) rotate3d(0, 0, 0, 0deg); animation:moveLogo2 2s ease-in-out alternate infinite;}
+
 }

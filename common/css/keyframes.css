@@ -21,3 +21,23 @@ Last update : 2022. 00. 00.
         background-position:center 0;
     }
 }
+
+@keyframes moveLogo {
+    0% {
+        transform:translateY(-50%) rotate3d(0, 0, 0, 0deg);
+    }
+
+    100% {
+        transform:translateY(-50%) rotate3d(0, 1, 0, 180deg);
+    }
+}
+
+@keyframes moveLogo2 {
+    0% {
+        transform:translateX(-50%) rotate3d(0, 0, 0, 0deg);
+    }
+
+    100% {
+        transform:translateX(-50%) rotate3d(0, 1, 0, 180deg);
+    }
+}
