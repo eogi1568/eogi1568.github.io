@@ -51,7 +51,7 @@ Last update : 2022. 00. 00.
 
 
 /********** location **********/
-.location_wrapper{display:block; position:relative; width:100%; padding:100px 0 0; box-sizing:border-box; border-bottom:1px solid #666; background:url(../images/common/bg_contents.jpeg)no-repeat center center / 100% auto;}
+.location_wrapper{display:block; position:relative; width:100%; box-sizing:border-box; border-bottom:1px solid #666; background:url(../images/common/bg_contents.jpeg)no-repeat center center / 100% auto;}
 .location_wrapper .location{display:flex; flex-wrap:nowrap; position:relative; justify-content:left; padding:50px 0; box-sizing:border-box;}
 .location_wrapper .location > li{display:inline-block; position:relative;}
 .location_wrapper .location > li + li{margin-left:100px;}

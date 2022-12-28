@@ -72,12 +72,11 @@ html, body{font-size:14px;}
 .gnb_wrap > .gnb_list:before{display:block; position:absolute; top:70px; left:50%; transform:translateX(-50%); width:85%; height:0; border-top:1px dashed #777; content:"";}
 .gnb_wrap > .gnb_list > li{margin:0;}
 .gnb_wrap > .gnb_list > li + li{margin-top:10px;}
-.gnb_wrap > .gnb_list > li > a{text-align:left;}
+.gnb_wrap > .gnb_list > li > a{text-align:left; margin:0; padding:0 0 0 40px;}
 
 /* layout */
 .sub_contents_wrapper{padding-top:70px;}
 .contents_wrapper{padding:50px 0;}
-.location_wrapper{padding-top:70px;}
 
 /* main */
 .visual_wrapper .introduce_dec{width:90%; height:400px; padding:100px 0 0; box-sizing:border-box;}
@@ -85,8 +84,10 @@ html, body{font-size:14px;}
 
 /* location */
 .location_wrapper .location{padding:20px 0;}
-.location_wrapper .location > li + li{margin-left:50px;}
-.location_wrapper .location > li + li:before{left:-25px;}
+.location_wrapper .location > li + li{margin-left:35px;}
+.location_wrapper .location > li + li:before{left:-20px;}
+.location_wrapper .location > li.home a{padding:0 10px;}
+.location_wrapper .location > li.page_tit h2{font-size:1.8rem;}
 
 /* introduce */
 .introduce_list li + li{margin-top:10px;}
